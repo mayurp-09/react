@@ -1,0 +1,29 @@
+.counter-container {
+  display: flex;            
+  flex-direction: column;    
+  align-items: center;       
+  justify-content: center;   
+  height: 100vh;             
+  font-family: Arial, sans-serif;
+
+}
+
+.counter-container h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.counter-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #426386;
+  color: white;
+}
+
+.counter-container button:hover {
+  background-color: #0b2f55;
+}
