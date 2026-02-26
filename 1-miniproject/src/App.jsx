@@ -109,8 +109,10 @@ const App = () => {
   return (
     <div className='parent'>
       {jobOpenings.map(function (elem, idx) {
-        return <div key={idx}>
-          <Card company={elem.companyName} datePosted={elem.datePosted} post={elem.post} tag1={elem.tag1} brandLogo={elem.brandLogo} pay={elem.pay} tag2={elem.tag2} />
+        return <div key={idx}> 
+//react can unquely identify each element that why we we use key
+          <Card company={elem.companyName} datePosted={elem.datePosted} post={elem.post} 
+          tag1={elem.tag1} brandLogo={elem.brandLogo} pay={elem.pay} tag2={elem.tag2} />
         </div>
       })}
     </div>
