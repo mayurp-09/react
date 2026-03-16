@@ -5,8 +5,7 @@ import Header from './components/header/header'
 const App = () => {
   return (
     <div>
-      <Button />
-      <Header />
+      
     </div>
   )
 }
